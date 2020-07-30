@@ -7,20 +7,22 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/revyoome">
-          <Workterm company="revyoome" />
-        </Route>
-        <Route path="/tekside">
-          <Workterm company="tekside" />
-        </Route>
-        <Route path="/wsib">
-          <Workterm company="wsib" />
-        </Route>
-      </Switch>
+      <div style={{ marginTop: "12vmin" }}>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/revyoome">
+            <Workterm company="revyoome" />
+          </Route>
+          <Route path="/tekside">
+            <Workterm company="tekside" />
+          </Route>
+          <Route path="/wsib">
+            <Workterm company="wsib" />
+          </Route>
+        </Switch>
+      </div>
     </BrowserRouter>
   );
 }
