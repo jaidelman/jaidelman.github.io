@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      <div style={{ marginTop: "12vmin" }}>
+      <div className="app">
         <Switch>
           <Route exact path="/">
             <Home />

@@ -1,9 +1,13 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #190e4f;
+  background-color: #242038;
   overflow: hidden;
 }
 
@@ -12,10 +16,27 @@
   display: block;
   text-align: center;
   text-decoration: none;
-  padding: 4vmin 5vmin;
+  padding: 1.5rem;
   color: #fffffc;
 }
 
 .navbar a:hover {
-  background-color: #757780;
+  background-color: #92898a;
+}
+
+.home-image {
+  width: 20%;
+  height: 25%;
+  padding-right: 5%;
+  float: right;
+}
+
+.app {
+  margin-top: 5rem;
+}
+
+.intro {
+  float: left;
+  width: 60%;
+  padding-left: 5%;
 }

@@ -8,13 +8,13 @@ export const NavBar = () => {
         Home
       </Link>
       <Link className="link" to="/revyoome">
-        RevyooMe
+        Term 1: RevyooMe
       </Link>{" "}
       <Link className="link" to="/tekside">
-        Tekside.io
+        Term 2: Tekside.io
       </Link>
       <Link className="link" to="/wsib">
-        WSIB Innovation Lab
+        Term 3: WSIB Innovation Lab
       </Link>
     </div>
   );
