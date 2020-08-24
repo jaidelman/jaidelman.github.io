@@ -16,6 +16,9 @@ export const NavBar = () => {
       <Link className="link" to="/wsib">
         Term 3: WSIB Innovation Lab
       </Link>
+      <Link className="link" to="/contact">
+        Contact Me
+      </Link>
     </div>
   );
 };

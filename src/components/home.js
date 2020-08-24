@@ -19,7 +19,7 @@ export const Home = () => {
           <u>About Me</u>
         </h3>
         <p>
-          I am a Software Engineering student who has finished my 3nd year of
+          I am a Software Engineering student who has finished my 3rd year of
           the 5-year Co-op program at the University of Guelph in Guelph,
           Ontario. I am minoring in mathematics, and I have an interest in
           emerging technologies in software as well as automation. In the summer

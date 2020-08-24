@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { Home, Workterm, NavBar } from "./components";
+import { Home, Workterm, NavBar, Contact } from "./components";
 import "./assets/App.css";
 
 function App() {
@@ -20,6 +20,9 @@ function App() {
           </Route>
           <Route path="/wsib">
             <Workterm company="wsib" />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
         </Switch>
       </div>

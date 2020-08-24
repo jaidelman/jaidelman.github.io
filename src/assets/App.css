@@ -9,9 +9,10 @@
   width: 100%;
   background-color: #242038;
   overflow: hidden;
+  z-index: 999999;
 }
 
-.navbar a {
+.navbar > a {
   float: left;
   display: block;
   text-align: center;
@@ -20,7 +21,7 @@
   color: #fffffc;
 }
 
-.navbar a:hover {
+.navbar > a:hover {
   background-color: #92898a;
 }
 
@@ -39,4 +40,46 @@
   float: left;
   width: 60%;
   padding-left: 5%;
+}
+
+.logo {
+  height: 10%;
+  width: 10%;
+}
+
+.contact-div {
+  margin-top: 5rem;
+  margin-left: 10rem;
+}
+
+.contact-button {
+  border-radius: 8px;
+  border: none;
+  height: 3rem;
+  width: 9rem;
+  display: block;
+  cursor: pointer;
+  margin: 1rem;
+  align-items: center;
+  opacity: 0.6;
+  transition-duration: 0.8s;
+}
+
+.contact-button a {
+  text-decoration: none;
+  color: #fffffc;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.contact-button:hover {
+  opacity: 1;
+}
+
+.floating-image {
+  display: inline-block;
+  margin-top: 4rem;
+  margin-left: 8rem;
+  width: 564px;
+  height: 375px;
 }
