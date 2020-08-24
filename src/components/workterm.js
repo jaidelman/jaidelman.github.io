@@ -40,16 +40,18 @@ export const Workterm = (props) => {
   return (
     <div>
       <img className="logo" src={logo} alt={title + "'s logo"} />
-      <h1>About {title}</h1>
-      <p>{about}</p>
-      <h1>My Learning Goals</h1>
-      {goals}
-      <h3>Reflection</h3>
-      <p>{reflection}</p>
-      <h1>Conclusion</h1>
-      <p>{conclusion}</p>
-      <h1>Acknowledgements</h1>
-      <p>{acknowledgements}</p>
+      <div className="intro">
+        <h1>About {title}</h1>
+        <p>{about}</p>
+        <h1>My Learning Goals</h1>
+        {goals}
+        <h3>Reflection</h3>
+        <p>{reflection}</p>
+        <h1>Conclusion</h1>
+        <p>{conclusion}</p>
+        <h1>Acknowledgements</h1>
+        <p>{acknowledgements}</p>
+      </div>
     </div>
   );
 };

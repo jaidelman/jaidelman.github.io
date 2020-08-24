@@ -43,8 +43,11 @@
 }
 
 .logo {
-  height: 10%;
-  width: 10%;
+  height: 15%;
+  width: 15%;
+  padding-right: 10%;
+  padding-top: 5%;
+  float: right;
 }
 
 .contact-div {
