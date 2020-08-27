@@ -37,6 +37,10 @@ export const Workterm = (props) => {
     goals.push(goal);
   });
 
+  let formattedConclusion = conclusion.split("\n").map((paragraph, i) => {
+    return <p key={i}>{paragraph}</p>;
+  });
+
   return (
     <div>
       <img className="logo" src={logo} alt={title + "'s logo"} />
@@ -48,7 +52,7 @@ export const Workterm = (props) => {
         <h3>Reflection</h3>
         <p>{reflection}</p>
         <h1>Conclusion</h1>
-        <p>{conclusion}</p>
+        {formattedConclusion}
         <h1>Acknowledgements</h1>
         <p>{acknowledgements}</p>
       </div>
